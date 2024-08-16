@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Work+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%; /* Adjust width to 100% for responsiveness */
+  max-width: 1100px; /* Set a maximum width */
+  margin: auto;
+}
+
+.nav_bar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.logo i {
+  margin-right: 10px;
+  color: rgb(51, 153, 51);
+  font-size: 1.8rem;
+  
+}
+
+
+
+/* menu list style */
+.menu_list a {
+  margin: 1.2rem;
+  font-size: 14px;
+  color: rgb(82, 79, 79);
+}
+
+.lg_btn {
+  margin-left: 2rem;
+  padding: 5px 1rem;
+  border-radius: 10px;
+  color: #fff;
+  background: rgb(51, 153, 51);
+  cursor: pointer;
+}
+
+.menu_list a:hover {
+  color: #000;
+}
+
+/* Home section style */
+.home_section {
+  background-image: url(img.jpg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.home span {
+  color: rgb(51, 153, 51);
+}
+
+.home_buttons {
+  margin-top: 2rem;
+}
+
+.home_buttons button {
+  padding: 10px 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.home_buttons button i {
+  margin-right: 10px;
+}
+
+.home_buttons .btn1 {
+  background: rgb(51, 153, 51);
+  color: #fff;
+}
+
+/* services */
+.services {
+  background: rgb(255, 255, 255);
+  padding: 2rem 1rem;
+}
+
+.services .title {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.title span {
+  color: rgb(51, 153, 51);
+}
+
+.title .slogan {
+  font-size: 1rem;
+  color: gray;
+}
+
+.services_boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.box {
+  width: 320px;
+  background: #cfe2d1;
+  padding: 2rem;
+  margin: 1rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box i {
+  font-size: 4rem;
+  color: rgb(40, 56, 40);
+  margin-bottom: 2rem;
+}
+
+.box p {
+  color: gray;
+  margin-top: 10px;
+}
+
+.box:hover,
+.br {
+  border: 2px solid rgb(51, 153, 51);
+}
+
+
+/* Add this section for responsiveness */
+.form_section {
+  padding: 2rem;
+  background-image: url('aa.jpg'); /* Replace 'img.jpg.jpg' with the URL of your desired background image */
+  background-size: cover;
+  background-position: center;
+  color: rgb(253, 253, 253); /* Set font color to white */
+  
+  
+}
+
+.form_section .container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  
+}
+
+.wrapper {
+  width: 500px;
+  background: linear-gradient(to bottom right, #999, #666); /* Gradient background from light gray to dark gray */
+  border: 2px solid rgba(255, 255, 255, .2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+
+.input-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 15px; /* Adjust padding for better touch interaction on mobile */
+  font-size: 16px;
+  color: black; /* Set input text color to black for better contrast */
+  margin-bottom: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Adjust border transparency */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Lighten the input background */
+}
+.input-box input:focus {
+  border-color: rgb(51, 153, 51);
+}
+
+.input-box input::placeholder {
+  color: white; /* Set placeholder text color to white */
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.remember-forgot {
+  margin-bottom: 30px;
+}
+
+.remember-forgot label {
+  font-size: 14px;
+  color: white; /* Set label color to white */
+}
+
+.remember-forgot input {
+  margin-right: 10px;
+}
+
+.btn {
+  width: 100%;
+  background: rgb(51, 153, 51);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #333;
+}
+
+
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .nav_bar {
+    flex-direction: column; /* Stack navigation items vertically */
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .menu_list a {
+    margin: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .lg_btn {
+    margin: 1rem 0;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+  }
+
+  .home_buttons button {
+    padding: 8px 0.8rem;
+    margin: 0.5rem;
+  }
+
+  .box {
+    width: calc(100% - 40px); /* Adjust width for smaller screens */
+    margin: 1rem auto;
+  }
+  .wrapper {
+    backdrop-filter: none; /* Remove backdrop-filter on smaller screens */
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color as fallback */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Adjust border color for visibility */
+  }
+
+}
